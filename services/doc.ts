@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import { merge } from 'lodash';
 
-const docsDirectory = path.join(process.cwd(), 'docs/doc');
+const docsDirectory = path.join(process.cwd(), 'public/openapi');
 
 export function getJsonDoc() {
   let spec: any = {};
