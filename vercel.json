@@ -1,0 +1,9 @@
+{
+  "public": true,
+  "functions": {
+    "pages/api/**": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  }
+}
