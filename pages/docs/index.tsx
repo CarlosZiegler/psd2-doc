@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Header } from '../../components/Header';
 import styles from '../../styles/home.module.scss';
@@ -17,41 +18,43 @@ export default function Index() {
           </h1>
           <ul>
             <h2 id="-psd2-dedicated-interface-aisp-access-documentation-doc-dedicated-aisp-md-">
-              <a href="/docs/dedicated-aisp">
-                PSD2 Dedicated Interface - AISP Access documentation
-              </a>
+              <Link href="/docs/dedicated-aisp">
+                <a>PSD2 Dedicated Interface - AISP Access documentation</a>
+              </Link>
             </h2>
             <h2 id="-psd2-dedicated-interface-pisp-access-documentation-doc-dedicated-pisp-md-">
-              <a href="/docs/dedicated-pisp">
-                PSD2 Dedicated Interface - PISP Access documentation
-              </a>
+              <Link href="/docs/dedicated-pisp">
+                <a>PSD2 Dedicated Interface - PISP Access documentation</a>
+              </Link>
             </h2>
             <h2 id="-psd2-dedicated-interface-cbpii-access-documentation-doc-dedicated-cbpii-md-">
-              <a href="/docs/dedicated-cbpii">
-                PSD2 Dedicated Interface - CBPII Access documentation
-              </a>
+              <Link href="/docs/dedicated-cbpii">
+                <a>PSD2 Dedicated Interface - CBPII Access documentation</a>
+              </Link>
             </h2>
             <h2 id="-psd2-fallback-api-aisp-access-documentation-doc-fallback-aisp-md-">
-              <a href="/docs/fallback-aisp">
-                PSD2 Fallback API - AISP access documentation
-              </a>
+              <Link href="/docs/fallback-aisp">
+                <a>PSD2 Fallback API - AISP access documentation</a>
+              </Link>
             </h2>
             <h2 id="-psd2-fallback-api-pisp-access-documentation-doc-fallback-pisp-md-">
-              <a href="/docs/fallback-pisp">
-                PSD2 Fallback API - PISP access documentation
-              </a>
+              <Link href="/docs/fallback-pisp">
+                <a>PSD2 Fallback API - PISP access documentation</a>
+              </Link>
             </h2>
             <h2 id="-psd2-sandbox-access-documentation-doc-sandbox-md-">
-              <a href="./doc/sandbox.md">PSD2 Sandbox Access documentation</a>
+              <Link href="/doc/sandbox.md">
+                <a>PSD2 Sandbox Access documentation</a>
+              </Link>
             </h2>
             <h1 id="open-api-file">Open API file</h1>
             <h1 id="additional-api-specification">
               Additional API Specification
             </h1>
             <p>
-              <a href="/docs/additional_api_spec">
-                API Request &amp; Response Parameters
-              </a>
+              <Link href="/docs/additional_api_spec">
+                <a>API Request &amp; Response Parameters</a>
+              </Link>
             </p>
             <h1 id="postman-collections">Postman collections</h1>
             <p>
@@ -416,14 +419,14 @@ export default function Index() {
                 I&#39;d like to know what are the bankTransactionCode means
               </summary>
               &gt; We&#39;ve created{' '}
-              <a href="/docs/additional_api_spec.md">
-                Additional API Specification
-              </a>{' '}
+              <Link href="/docs/additional_api_spec.md">
+                <a>Additional API Specification</a>
+              </Link>{' '}
               page with specific section related to request &amp; response
               parameters, including{' '}
-              <a href="/docs/additional_api_spec#bank-transaction-code">
-                Bank Transaction Code
-              </a>
+              <Link href="/docs/additional_api_spec#bank-transaction-code">
+                <a>Bank Transaction Code</a>
+              </Link>
             </details>
 
             <details>

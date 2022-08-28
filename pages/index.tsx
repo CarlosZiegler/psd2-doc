@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import { Header } from '../components/Header';
 import styles from '../styles/home.module.scss';
+import Link from 'next/link';
 
 export default function index({ spec }: any) {
   return (
@@ -52,9 +53,9 @@ export default function index({ spec }: any) {
               a QWAC certificate to be issued by a qualified certificate
               authority
             </p>
-            <a href="/docs" className={styles.buttonStartNow}>
-              Get started
-            </a>
+            <Link href="/docs" className={styles.buttonStartNow}>
+              <a>Get started</a>
+            </Link>
           </div>
           <Image
             src="/N26_Logo_Black_RGB_M.jpeg"

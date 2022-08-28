@@ -21,12 +21,18 @@ export function Header() {
           <a href="https://github.com/n26/psd2-tpp-docs" aria-label="Github">
             <FaGithub color="#1A2E46" />
           </a>
-          <a href="/docs/openapi">
-            <TbApi color="#1A2E46" />
-          </a>
-          <a href="/docs" className={styles.button} style={{ marginRight: 5 }}>
-            Documentation
-          </a>
+          <Link href="/docs/openapi">
+            <a>
+              <TbApi color="#1A2E46" />
+            </a>
+          </Link>
+          <Link
+            href="/docs"
+            className={styles.button}
+            style={{ marginRight: 5 }}
+          >
+            <a>Documentation</a>
+          </Link>
         </div>
       </div>
     </header>
