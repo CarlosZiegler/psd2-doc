@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Header } from '../../components/Header';
-import styles from '../../styles/home.module.scss';
+
 export default function Index() {
   const [domLoaded, setDomLoaded] = useState(false);
 

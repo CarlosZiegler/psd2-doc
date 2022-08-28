@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 import { Header } from '../components/Header';
-import styles from '../styles/home.module.scss';
+
 import Link from 'next/link';
 
 export default function index({ spec }: any) {
@@ -38,9 +38,9 @@ export default function index({ spec }: any) {
       </Head>
       <Header />
 
-      <main className={styles.mainContainer}>
-        <section className={styles.sectionHeader}>
-          <div className={styles.content}>
+      <main className={'mainContainer'}>
+        <section className={'sectionHeader'}>
+          <div className={'content'}>
             <h2>Dedicated interface</h2>
             <p>
               Our dedicated interface is the REST API compliant with version
@@ -53,19 +53,19 @@ export default function index({ spec }: any) {
               a QWAC certificate to be issued by a qualified certificate
               authority
             </p>
-            <Link href="/docs" className={styles.buttonStartNow}>
+            <Link href="/docs" className={'buttonStartNow'}>
               <a>Get started</a>
             </Link>
           </div>
           <Image
             src="/N26_Logo_Black_RGB_M.jpeg"
-            className={styles.schemaDesk}
+            className={'schemaDesk'}
             alt="API Schema"
             width="286"
             height="286"
           />
         </section>
-        <section className={styles.motivation}>
+        <section className={'motivation'}>
           <h2>Motivation</h2>
           <p>
             The Second EU Payment Services Directive (PSD2) brings some changes
