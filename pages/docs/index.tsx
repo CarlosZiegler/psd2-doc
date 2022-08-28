@@ -12,7 +12,7 @@ export default function Index() {
     <div>
       <Header />
       {domLoaded && (
-        <main className={styles.mainContainer}>
+        <main className={'mainContainer'}>
           <h1 id="api-documentation-psd2-open-banking-for-third-party-providers">
             API Documentation - PSD2 - Open Banking for Third Party Providers
           </h1>
